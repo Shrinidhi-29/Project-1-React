@@ -1,0 +1,51 @@
+.article {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px -1px rgb(0 0 0 / 0.1), 0px 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.profile-img {
+  width: 48px;
+  height: 48px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex-grow: 1;
+}
+.head-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.profile-name {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+  color: #171717;
+}
+.profile-sub {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #525252;
+}
+.testimonial-body {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
+}
